@@ -72,6 +72,22 @@ li a{
  border-radius: 5px;
 }
 
+.first-column h3{
+ color: #515151;
+}
+
+.first-column p{
+ color: green;
+}
+
+.fas{
+ float: left;
+ margin-top: 10px;
+ margin-right: 5px;
+ color: orange;
+ font-size: 20px;
+}
+
 .second-column{
  float: left;
  background-color: white;
@@ -82,29 +98,29 @@ li a{
  border-radius: 5px;
 }
 
+.second-column{
+ color: #515151;
+}
+
 .third-column{
  float: right;
  width: 20%;
  margin-bottom: 10px;
 }
 
-.first-widget{
+.widget{
+ color: #515151;
  background-color: white;
- margin-bottom: 20px;
- padding: 10px;
- border-radius: 5px;
-}
-.second-widget{
- background-color: white;
- margin-bottom: 20px;
  padding: 10px;
  border-radius: 5px;
 }
 
-.third-widget{
- background-color: white;
- padding: 10px;
- border-radius: 5px;
+.first-widget{
+ margin-bottom: 20px;
+}
+
+.second-widget{
+ margin-bottom: 20px;
 }
 
 footer{
