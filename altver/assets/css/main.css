@@ -6,7 +6,8 @@
 
 html{
  background-image: url(../img/background.jpg);
- background-size: cover;
+ background-size: contain;
+ background-attachment: fixed;
  padding-bottom: 20px;
  padding-top: 10px;
 }
@@ -48,8 +49,11 @@ li a{
  text-align: center;
  text-decoration: none;
  font-size: 11px;
- padding: 12px 21px;
+ padding: 12px 21.4px;
+}
 
+li a:hover{
+ background-color: black;
 }
 
 .three-column{
@@ -78,6 +82,12 @@ li a{
 
 .first-column p{
  color: green;
+}
+
+.first-column p:hover{
+ color:black;
+ text-decoration: underline;
+ cursor: pointer;
 }
 
 .fas{
