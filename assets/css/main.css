@@ -7,7 +7,7 @@
 html{
  background-image: url(../img/background.jpg);
  background-size: cover;
- padding-bottom: 10px;
+ padding-bottom: 20px;
  padding-top: 10px;
 }
 
@@ -55,6 +55,7 @@ li a{
 .three-column{
  width: 100%;
  margin-top: 5px;
+ margin-bottom: 10px;
 }
 
 .three-column:after {
@@ -65,8 +66,10 @@ li a{
 
 .first-column{
  float: left;
- background-color: brown;
+ background-color: white;
  width: 20%;
+ padding: 10px;
+ border-radius: 5px;
 }
 
 .second-column{
@@ -75,6 +78,8 @@ li a{
  width: 50%;
  margin-left: 34px;
  margin-right: 34px;
+ padding: 10px;
+ border-radius: 5px;
 }
 
 .third-column{
@@ -84,21 +89,26 @@ li a{
 }
 
 .first-widget{
- background-color: blue;
- margin-bottom: 10px;
+ background-color: white;
+ margin-bottom: 20px;
+ padding: 10px;
+ border-radius: 5px;
 }
 .second-widget{
- background-color: pink;
- margin-bottom: 10px;
+ background-color: white;
+ margin-bottom: 20px;
+ padding: 10px;
+ border-radius: 5px;
 }
 
 .third-widget{
  background-color: white;
+ padding: 10px;
+ border-radius: 5px;
 }
 
 footer{
- position: relative;
- background-color: white;;
+ background-color: white;
  height: 100px;
- bottom: 5px;
+ border-radius: 5px;
 }
