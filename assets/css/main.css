@@ -112,3 +112,11 @@ footer{
  height: 100px;
  border-radius: 5px;
 }
+
+.copyright{
+ height: 40%;
+ border-bottom: 1.5px grey solid;
+ margin: 3px;
+ text-align: center;
+ padding-top: 9px;
+}
